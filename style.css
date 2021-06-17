@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 65.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #eee;
+  background: linear-gradient(
+    to right top,
+    #f622ed,
+    #d933ef,
+    #bb3ef0,
+    #9c45ee,
+    #794aeb,
+    #5f5ef5,
+    #3f6dfb,
+    #007bff,
+    #0099ff,
+    #00b2ff,
+    #00c9ff,
+    #00deff
+  );
+}
+
+/* LAYOUT */
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid rgb(248, 41, 41);
+}
+
+main {
+  height: 70vh;
+  color: #eee;
+  /* background-color: rgb(189, 108, 255); */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.title {
+  font-size: 60px;
+}
+
+.left {
+  width: 49rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  width: 1320rem;
+  font-size: 2rem;
+}
+
+/* ELEMENTS STYLE */
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.number {
+  /* background: rgb(112, 243, 134); */
+  /* background: linear-gradient(
+    to right top,
+    #2ee145,
+    #00e57a,
+    #00e7a4,
+    #00e7c5,
+    #1ae5dc
+  ); */
+  color: #333;
+  font-size: 9rem;
+  width: 15rem;
+  padding: 3rem 0rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.between {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.again {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.guess {
+  background: none;
+  border: 4px solid #eee;
+  font-family: inherit;
+  color: inherit;
+  font-size: 5rem;
+  padding: 2.5rem;
+  width: 25rem;
+  text-align: center;
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.btn {
+  border: none;
+  background-color: rgb(112, 243, 134);
+  color: #222;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 2rem 3rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ccc;
+}
+
+.message {
+  margin-bottom: 0rem;
+  height: 12rem;
+  font-size: 39px;
+  text-align: center;
+}
+
+.message1 {
+  margin-bottom: 0rem;
+  height: 6rem;
+  font-size: 39px;
+  text-align: Center;
+}
+
+.prize {
+  margin-bottom: 0rem;
+  height: 15rem;
+  font-size: 29px;
+  text-align: center;
+}
+
+.gen {
+  margin-bottom: 0rem;
+  /* height: 31rem; */
+  font-size: 28px;
+  padding: 1.5rem 2rem;
+  cursor: pointer;
+  background-color: #00deff;
+}
+
+.label-score {
+  margin-bottom: 2rem;
+}
